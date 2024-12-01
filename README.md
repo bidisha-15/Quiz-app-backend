@@ -137,7 +137,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Feel free to contribute or report issues in the [issues section](https://github.com/bidisha-15/Quiz-app-backend/issues).
-
----
-```
-
