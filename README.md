@@ -1,6 +1,7 @@
+
 # Quiz-app-backend
 
-Welcome to the *Quiz-app-backend* repository! This project serves as the backend for a quiz application. It handles user authentication, quiz management, and result processing using *Node.js, **Express.js, and **MongoDB*.
+Welcome to the **Quiz-app-backend** repository! This project serves as the backend for a quiz application. It handles user authentication, quiz management, and result processing using **Node.js**, **Express.js**, and **MongoDB**.
 
 ## Table of Contents
 
@@ -27,14 +28,14 @@ Welcome to the *Quiz-app-backend* repository! This project serves as the backend
 
 ## Technologies Used
 
-- *Node.js*: Backend runtime
-- *Express.js*: Web framework
-- *MongoDB*: Database
-- *Mongoose*: ODM for MongoDB
-- *JWT*: For secure user authentication
-- *bcrypt.js*: For password hashing
-- *dotenv*: For environment variable management
-- *Joi*: For input validation
+- **Node.js**: Backend runtime
+- **Express.js**: Web framework
+- **MongoDB**: Database
+- **Mongoose**: ODM for MongoDB
+- **JWT**: For secure user authentication
+- **bcrypt.js**: For password hashing
+- **dotenv**: For environment variable management
+- **Joi**: For input validation
 
 ---
 
@@ -44,47 +45,47 @@ Welcome to the *Quiz-app-backend* repository! This project serves as the backend
 
 Make sure you have the following installed:
 
-- *Node.js* (v14 or higher)
-- *npm* (Node Package Manager)
-- *MongoDB* (local or cloud-based)
+- **Node.js** (v14 or higher)
+- **npm** (Node Package Manager)
+- **MongoDB** (local or cloud-based)
 
 ### Installation
 
 1. Fork and clone the repository:
 
-  
+   ```bash
    git clone https://github.com/bidisha-15/Quiz-app-backend.git
-   
    cd Quiz-app-backend
-   
+   ```
 
-3. Install dependencies:
+2. Install dependencies:
 
+   ```bash
    npm install
-  
+   ```
 
-4. Set up your .env file (see [Environment Variables](#environment-variables)).
+3. Set up your `.env` file (see [Environment Variables](#environment-variables)).
 
-5. Start the development server:
+4. Start the development server:
 
-  
+   ```bash
    npm run dev
-  
+   ```
 
 ---
 
 ## Environment Variables
 
-Create a .env file in the root directory and include the following:
+Create a `.env` file in the root directory and include the following:
 
-
+```plaintext
 PORT=5000
 MONGO_URI=<your-mongodb-connection-string>
 JWT_SECRET=<your-secret-key>
 NODE_ENV=development
+```
 
-
-Replace <your-mongodb-connection-string> and <your-secret-key> with appropriate values.
+Replace `<your-mongodb-connection-string>` and `<your-secret-key>` with appropriate values.
 
 ---
 
@@ -94,18 +95,18 @@ Refer to the [API Documentation](docs/API.md) (create this file for detailed end
 
 ### Example Endpoints:
 
-#### *Authentication*
-- *POST* /api/auth/register - Register a new user.
-- *POST* /api/auth/login - Log in a user.
+#### **Authentication**
+- **POST** `/api/auth/register` - Register a new user.
+- **POST** `/api/auth/login` - Log in a user.
 
-#### *Quizzes*
-- *GET* /api/quizzes - Get all quizzes.
-- *POST* /api/quizzes - Create a quiz (Admin only).
+#### **Quizzes**
+- **GET** `/api/quizzes` - Get all quizzes.
+- **POST** `/api/quizzes` - Create a quiz (Admin only).
 
-#### *Quiz Taking*
-- *POST* /api/quizzes/:id/submit - Submit answers to a quiz.
+#### **Quiz Taking**
+- **POST** `/api/quizzes/:id/submit` - Submit answers to a quiz.
 
-For detailed API information, check the documentation linked above.
+_For detailed API information, check the documentation linked above._
 
 ---
 
@@ -118,30 +119,30 @@ We welcome contributions to improve this project! Here's how you can contribute:
 1. Fork this repository.
 2. Clone your forked repository:
 
-
+   ```bash
    git clone https://github.com/your-username/Quiz-app-backend.git
-
+   ```
 
 3. Create a new branch for your feature or bug fix:
 
- 
+   ```bash
    git checkout -b feature-name
-
+   ```
 
 4. Make your changes and commit them:
 
- 
+   ```bash
    git add .
    git commit -m "Add your message here"
- 
+   ```
 
 5. Push your changes to your forked repository:
 
-
+   ```bash
    git push origin feature-name
+   ```
 
-
-6. Submit a pull request to the main branch of the original repository.
+6. Submit a pull request to the `main` branch of the original repository.
 
 ### Contribution Guidelines
 
