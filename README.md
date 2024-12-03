@@ -154,6 +154,16 @@ We welcome contributions to improve this project! Here's how you can contribute:
 
 ---
 
+##Contributors
+
+<a href="https://github.com/bidisha-15/Quiz-app-backend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=bidisha-15/Quiz-app-backend" />
+</a>
+
+##Forkers
+
+[![Forkers repo roster for @bidisha-15/Quiz-app-backend](https://reporoster.com/forks/bidisha-15/Quiz-app-backend)](https://github.com/bidisha-15/Quiz-app-backend/network/members)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
